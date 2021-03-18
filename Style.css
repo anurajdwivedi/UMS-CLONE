@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Montserrat';
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.main-body{
+    background-image: url("https://ums.lpu.in/images/landing-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+
+.main-body-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    /* margin-left: 100px; */
+    float: left;
+    margin-left: 90px;
+    box-shadow: 2px 2px 50px;
+    
+}
+
+.card-body1{
+    border-top: 1px solid #efefef;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 20px;
+}
